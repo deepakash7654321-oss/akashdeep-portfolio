@@ -2,8 +2,16 @@ import { Project, ExperienceItem, SkillCategory, Certification, Education, Achie
 
 export const personalInfo = {
   name: "Akashdeep Sharma",
-  roleTitle: "Business Technology Solutions | Full Stack Developer | Agentic AI & Chatbots | RAG & Vector Embeddings",
-  pitch: "Architecting & deploying enterprise agentic AI systems, production RAG pipelines, and full-stack software solutions that turn complex business challenges into high-impact technology.",
+  roleTitle: "Full-Stack & Agentic AI Engineer",
+  fullTitle: "Business Technology Solutions | Full Stack Developer | Agentic AI & Chatbots | RAG & Vector Embeddings",
+  pitch: "Engineering production AI agents, intelligent RAG pipelines, and full-stack web applications for enterprise clients.",
+  typingRoles: [
+    "Agentic AI Chatbots",
+    "Production RAG Pipelines",
+    "Full-Stack Web Apps",
+    "Enterprise AI Solutions",
+    "Cost-Optimized LLMs"
+  ],
   location: "Chandigarh, India",
   email: "abhi84205@gmail.com",
   phone: "+91 9050022397",
