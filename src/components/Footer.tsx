@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowUp, Heart, Sparkles, Linkedin, Mail, Phone } from 'lucide-react';
+import { ArrowUp, Sparkles, Linkedin, Mail, Phone, Github } from 'lucide-react';
 import { personalInfo } from '../data/portfolioData';
 
 export const Footer: React.FC = () => {
@@ -24,6 +24,16 @@ export const Footer: React.FC = () => {
 
           {/* Social / Direct Links */}
           <div className="flex items-center gap-3">
+            <a
+              href={personalInfo.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-400 hover:text-white hover:border-blue-500/50 transition-colors"
+              title="GitHub Profile"
+              aria-label="GitHub"
+            >
+              <Github className="w-4 h-4" />
+            </a>
             <a
               href={`mailto:${personalInfo.email}`}
               className="p-2.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-400 hover:text-white hover:border-blue-500/50 transition-colors"

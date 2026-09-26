@@ -16,7 +16,7 @@ export const personalInfo = {
   email: "abhi84205@gmail.com",
   phone: "+91 9050022397",
   linkedin: "https://linkedin.com/in/akashdeep-sharma", // Placeholder link
-  github: "https://github.com",
+  github: "https://github.com/deepakash7654321-oss",
   resumePath: "/resume.pdf",
   currentRole: "Software Engineer at SearchUnify (Grazitti Interactive)"
 };
