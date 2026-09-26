@@ -15,7 +15,7 @@ export const personalInfo = {
   location: "Chandigarh, India",
   email: "abhi84205@gmail.com",
   phone: "+91 9050022397",
-  linkedin: "https://linkedin.com/in/akashdeep-sharma", // Placeholder link
+  linkedin: "https://www.linkedin.com/in/akashdeep-sharma-a48623246",
   github: "https://github.com/deepakash7654321-oss",
   resumePath: "/resume.pdf",
   resumeDriveUrl: "https://drive.google.com/file/d/1oLs8X4xltuRty_knOYjRYLr1reRzz0XE/view?usp=sharing",

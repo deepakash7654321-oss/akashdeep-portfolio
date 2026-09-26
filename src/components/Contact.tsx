@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Linkedin, Send, CheckCircle2, Copy, Check, MessageSquare } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, Send, CheckCircle2, Copy, Check, MessageSquare, ExternalLink, Github } from 'lucide-react';
 import { personalInfo } from '../data/portfolioData';
 
 export const Contact: React.FC = () => {
@@ -128,9 +128,26 @@ export const Contact: React.FC = () => {
                       <div className="text-sm font-medium text-slate-200">Connect on LinkedIn</div>
                     </div>
                   </div>
-                  <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400 border border-slate-700">
-                    Placeholder
-                  </span>
+                  <ExternalLink className="w-4 h-4 text-blue-400 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+                </a>
+
+                {/* GitHub row */}
+                <a
+                  href={personalInfo.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-between p-3.5 rounded-xl bg-slate-900/60 border border-slate-800/70 hover:border-blue-500/40 transition-colors group"
+                >
+                  <div className="flex items-center gap-3.5">
+                    <div className="p-2.5 rounded-lg bg-slate-800/80 text-slate-300 border border-slate-700/60 group-hover:scale-105 transition-transform">
+                      <Github className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <div className="text-xs font-mono text-slate-400">GitHub Profile</div>
+                      <div className="text-sm font-medium text-slate-200">github.com/deepakash7654321-oss</div>
+                    </div>
+                  </div>
+                  <ExternalLink className="w-4 h-4 text-slate-400 group-hover:text-blue-400 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                 </a>
               </div>
 
