@@ -18,7 +18,7 @@ export const personalInfo = {
   linkedin: "https://www.linkedin.com/in/akashdeep-sharma-a48623246",
   github: "https://github.com/deepakash7654321-oss",
   resumePath: "/resume.pdf",
-  resumeDriveUrl: "https://drive.google.com/file/d/1oLs8X4xltuRty_knOYjRYLr1reRzz0XE/view?usp=sharing",
+  resumeDriveUrl: "https://drive.google.com/file/d/1y8CPXYDCjoLX-P28W5swF_-QZMVRXskw/view?usp=sharing",
   currentRole: "Software Engineer at SearchUnify (Grazitti Interactive)"
 };
 
