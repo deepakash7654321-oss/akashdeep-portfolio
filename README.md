@@ -8,7 +8,8 @@ Styled in the spirit of modern AI engineer portfolios (inspired by reference [jo
 
 ## 🚀 Live Demo & Links
 
-- **Featured RAG Assistant**: [Streamlit Live App](https://pdf-app-chatbot-dtdealmjfkwgd43wmbwn7c.streamlit.app)
+- **CareerPilot AI — Agentic Job-Matching Assistant**: [Streamlit Live App](https://careerpilot-ai-45fn4ownegpbx5hgbzyber.streamlit.app/)
+- **PDF Q&A Chatbot — RAG Assistant**: [Streamlit Live App](https://pdf-app-chatbot-dtdealmjfkwgd43wmbwn7c.streamlit.app)
 - **School ERP & LMS with AI Assistant**: [Vercel Live App](https://school-er-pgurukul.vercel.app/login)
 
 ---

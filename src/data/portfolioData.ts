@@ -63,7 +63,7 @@ export const experienceData: ExperienceItem[] = [
     id: "grazitti",
     role: "Software Engineer Intern",
     company: "Grazitti Interactive",
-    period: "Sept 2025 - Mar 2026",
+    period: "Sept 2025 - Nov 2025",
     location: "Chandigarh, India",
     bullets: [
       "Contributed as a full-stack developer, working with Python, React.js, Node.js, and related web technologies."
@@ -73,6 +73,21 @@ export const experienceData: ExperienceItem[] = [
 ];
 
 export const projectsData: Project[] = [
+  {
+    id: "careerpilot-ai",
+    title: "CareerPilot AI — Agentic Job-Matching Assistant",
+    subtitle: "Intelligent Real-Time Job Discovery & Matchmaking Engine",
+    category: "Agentic AI",
+    featured: true,
+    liveUrl: "https://careerpilot-ai-45fn4ownegpbx5hgbzyber.streamlit.app/",
+    tags: ["Python", "Streamlit", "Groq LPU", "Agentic AI", "Job APIs", "Plotly"],
+    description: [
+      "Built an AI-powered job discovery assistant using Groq LPU inference for near-instant, low-latency LLM responses.",
+      "Integrated 24h worldwide job APIs to pull fresh, continuously refreshed listings across global markets.",
+      "Designed a deterministic matchmaking engine that scores and ranks jobs against a candidate's skills and profile for consistent, explainable recommendations.",
+      "Visualized candidate–job fit with an interactive Plotly radar chart, giving users an at-a-glance breakdown of match strength across key criteria."
+    ]
+  },
   {
     id: "pdf-qa-rag",
     title: "PDF Q&A Chatbot — RAG Assistant",

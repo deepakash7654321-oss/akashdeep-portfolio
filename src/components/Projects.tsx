@@ -7,12 +7,15 @@ type FilterType = 'All' | 'Live Demos' | 'Agentic AI & RAG' | 'Enterprise';
 export const Projects: React.FC = () => {
   const [activeFilter, setActiveFilter] = useState<FilterType>('All');
 
+  const liveDemosCount = projectsData.filter((p) => Boolean(p.liveUrl)).length;
+
   const filteredProjects = projectsData.filter((project) => {
     if (activeFilter === 'All') return true;
     if (activeFilter === 'Live Demos') return Boolean(project.liveUrl);
     if (activeFilter === 'Agentic AI & RAG') {
       return (
         project.category === 'RAG / AI' ||
+        project.category === 'Agentic AI' ||
         project.tags.includes('Agentic AI') ||
         project.tags.includes('RAG')
       );
@@ -52,7 +55,7 @@ export const Projects: React.FC = () => {
               {filter}
               {filter === 'Live Demos' && (
                 <span className="ml-2 inline-flex items-center px-1.5 py-0.2 rounded-full text-[10px] bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
-                  2 Live
+                  {liveDemosCount} Live
                 </span>
               )}
             </button>

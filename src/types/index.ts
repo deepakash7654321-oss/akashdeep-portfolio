@@ -7,7 +7,7 @@ export interface Project {
   liveUrl?: string;
   githubUrl?: string;
   featured?: boolean;
-  category: 'RAG / AI' | 'Full Stack & AI' | 'LLM Ops' | 'Enterprise AI';
+  category: 'RAG / AI' | 'Full Stack & AI' | 'LLM Ops' | 'Enterprise AI' | 'Agentic AI';
 }
 
 export interface ExperienceItem {
